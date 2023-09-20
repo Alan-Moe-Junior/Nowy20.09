@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"c1d1d1749ac4d60689a1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":216.6252719665272,\"y\":167.2676150627615,\"z\":0,\"width\":845.9353974895397,\"height\":300.259079497908}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"appmoduleroles.AppModule\"},{\"queryRef\":\"appmoduleroles.appmoduleid\"},{\"queryRef\":\"appmoduleroles.Godzina zastąpienia.Variation.Date Hierarchy.Year\"},{\"queryRef\":\"appmoduleroles.Godzina zastąpienia.Variation.Date Hierarchy.Quarter\"},{\"queryRef\":\"appmoduleroles.Godzina zastąpienia.Variation.Date Hierarchy.Month\"},{\"queryRef\":\"appmoduleroles.Godzina zastąpienia.Variation.Date Hierarchy.Day\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"appmoduleroles\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"AppModule\"},\"Name\":\"appmoduleroles.AppModule\",\"NativeReferenceName\":\"AppModule\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"appmoduleid\"},\"Name\":\"appmoduleroles.appmoduleid\",\"NativeReferenceName\":\"appmoduleid\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Name\":\"Variation\",\"Property\":\"Godzina zastąpienia\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"appmoduleroles.Godzina zastąpienia.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Godzina zastąpienia Year\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Name\":\"Variation\",\"Property\":\"Godzina zastąpienia\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Quarter\"},\"Name\":\"appmoduleroles.Godzina zastąpienia.Variation.Date Hierarchy.Quarter\",\"NativeReferenceName\":\"Godzina zastąpienia Quarter\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Name\":\"Variation\",\"Property\":\"Godzina zastąpienia\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"appmoduleroles.Godzina zastąpienia.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Godzina zastąpienia Month\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Name\":\"Variation\",\"Property\":\"Godzina zastąpienia\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Day\"},\"Name\":\"appmoduleroles.Godzina zastąpienia.Variation.Date Hierarchy.Day\",\"NativeReferenceName\":\"Godzina zastąpienia Day\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 300.26,
+          "width": 845.94,
+          "x": 216.63,
+          "y": 167.27,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
